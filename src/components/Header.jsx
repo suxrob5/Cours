@@ -33,7 +33,7 @@ export const Header = () => {
         <nav className="font-bold space-x-10 mt-7 w-[60%] sm:w-[40%]">
           <ul className="">
             <li className="flex justify-between mx-auto container w-[90%] text-[18px] font-[400] items-center">
-              <img src="./src/assets/images/Logo.svg" alt="mainIMg" />
+              <img src="src/assets/images/Logo.svg" alt="mainIMg" />
               <div className="hidden sm:flex justify-between mx-auto container w-[90%] text-[18px] font-[400] items-center ml-5 border-red-900">
                 <NavLink className="active:scale-90" to="/">
                   Home
